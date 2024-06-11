@@ -10,7 +10,9 @@ public class Main {
 //        Maruti.brake();
 //        Maruti.stop();
 
-
+        // Here Loose Coupling is demonstrated
+        // Coupling between the NiceCar and type of engine is loose as engines types are dynamkcally
+        // assigned through Engine interface
         Engine eng = new PowerEngine();
         Engine eng2 = new ElectricEngine();
         NiceCar Audi = new NiceCar(eng);

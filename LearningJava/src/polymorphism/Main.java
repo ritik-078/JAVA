@@ -7,10 +7,10 @@ public class Main {
         Triangle t = new Triangle();
         Square sq = new Square();
 
-//        s.area();
-//        c.area();
-//        t.area();
-//        sq.area();
+        s.area();
+        c.area();
+        t.area();
+        sq.area();
 
         System.out.println(s);
         System.out.println(c);

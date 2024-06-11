@@ -1,4 +1,5 @@
-package interfaces;
+package lambda;
+
 import java.util.ArrayList;
 import java.util.function.Consumer;
 

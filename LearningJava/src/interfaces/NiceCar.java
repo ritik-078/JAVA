@@ -1,8 +1,13 @@
 package interfaces;
 
+
+// NiceCar -> Engine -> Power Engine
+//                   -> Electric Engine
+// NiceCar -> Media Player -> CD Player
+//                         -> Any other Player
 public class NiceCar{
     private Engine engine;
-    private MediaPlayer player = new CDPlayer();
+    private  MediaPlayer player = new CDPlayer();
     public NiceCar(){
         engine = new ElectricEngine();
     }
