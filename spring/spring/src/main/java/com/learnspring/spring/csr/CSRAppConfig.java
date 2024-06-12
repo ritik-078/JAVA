@@ -5,6 +5,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @ComponentScan(basePackages = "com.learnspring.spring.mvc")
-public class AppConfig {
+public class CSRAppConfig {
 
 }

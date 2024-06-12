@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(CSRAppConfig.class);
 
         DemoController demoController = applicationContext.getBean(DemoController.class);
         System.out.println(demoController.hello());
